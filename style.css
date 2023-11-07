@@ -40,3 +40,19 @@ body {
     width: 50%;
     float: left;
 }
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
+    #content img {
+        width: 15rem;
+    }
+
+    #content {
+        background-color: white;
+        padding: 2rem 8rem;
+        text-align: justify;
+    }
+}
