@@ -99,12 +99,15 @@ li a:hover {
     background-color: #e2e2e2;
 }
 
-/* Main Content */
+/* --------------- Main Content --------------- */
 
 #content {
     background-color: white;
     padding: 2rem;
     text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #content img {
@@ -112,7 +115,7 @@ li a:hover {
     margin: 2rem;
     margin-left: 0;
     width: 50%;
-    float: left;
+    height: 50%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -136,12 +139,15 @@ li a:hover {
 
     #content img {
         width: 15rem;
+        height: 15rem;
     }
 
     #content {
         background-color: white;
         padding: 2rem 8rem;
         text-align: justify;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
 
